@@ -1,43 +1,43 @@
 
-const one = document.querySelector(".one");
-const two = document.querySelector(".two");
-const three = document.querySelector(".three");
-const four = document.querySelector(".four");
-const five = document.querySelector(".five");
+const ten = document.querySelector(".ten");
+const fifteen = document.querySelector(".fifteen");
+const twenty = document.querySelector(".twenty");
+const twentyfive = document.querySelector(".twentyfive");
+const thirthy = document.querySelector(".thirthy");
 
-one.onclick = function() {
-    one.classList.add("active");
-    two.classList.remove("active");
-    three.classList.remove("active");
-    four.classList.remove("active");
-    five.classList.remove("active");
+ten.onclick = function() {
+    ten.classList.add("active");
+    fifteen.classList.remove("active");
+    twenty.classList.remove("active");
+    twentyfive.classList.remove("active");
+    thirthy.classList.remove("active");
 }
 
-two.onclick = function() {
-    one.classList.add("active");
-    two.classList.add("active");
-    three.classList.remove("active");
-    four.classList.remove("active");
-    five.classList.remove("active");
+fifteen.onclick = function() {
+    ten.classList.add("active");
+    fifteen.classList.add("active");
+    twenty.classList.remove("active");
+    twentyfive.classList.remove("active");
+    thirthy.classList.remove("active");
 }
-three.onclick = function() {
-    one.classList.add("active");
-    two.classList.add("active");
-    three.classList.add("active");
-    four.classList.remove("active");
-    five.classList.remove("active");
+twenty.onclick = function() {
+    ten.classList.add("active");
+    fifteen.classList.add("active");
+    twenty.classList.add("active");
+    twentyfive.classList.remove("active");
+    thirthy.classList.remove("active");
 }
-four.onclick = function() {
-    one.classList.add("active");
-    two.classList.add("active");
-    three.classList.add("active");
-    four.classList.add("active");
-    five.classList.remove("active");
+twentyfive.onclick = function() {
+    ten.classList.add("active");
+    fifteen.classList.add("active");
+    twenty.classList.add("active");
+    twentyfive.classList.add("active");
+    thirthy.classList.remove("active");
 }
-five.onclick = function() {
-    one.classList.add("active");
-    two.classList.add("active");
-    three.classList.add("active");
-    four.classList.add("active");
-    five.classList.add("active");
+thirthy.onclick = function() {
+    ten.classList.add("active");
+    fifteen.classList.add("active");
+    twenty.classList.add("active");
+    twentyfive.classList.add("active");
+    thirthy.classList.add("active");
 }
